@@ -40,6 +40,8 @@ section{
 }
 .exper{
     margin-bottom: 200px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 }
 .devel h1{
     font-size: 35px;
@@ -47,10 +49,23 @@ section{
 .devel{
     width: 40%;
     min-height:400px;
-    margin-left: 5%;
+    margin-left: 3%;
     margin-right: 5%;
     padding-left: 2%;
     box-shadow:  10px 10px 40px grey;
+}
+#dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c);
+    border-image-slice: 1;
+    
+}
+#web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan
+    );
+    border-image-slice: 1;
+    
 }
 .buttom{
     text-align: center;
