@@ -38,11 +38,20 @@ section{
     
 
 }
+.exper{
+    margin-bottom: 200px;
+}
+.devel h1{
+    font-size: 35px;
+}
 .devel{
     width: 40%;
-    height: 80%;
+    min-height:400px;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 2%;
     box-shadow:  10px 10px 40px grey;
+}
+.buttom{
+    text-align: center;
 }
